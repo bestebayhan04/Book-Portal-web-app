@@ -1,0 +1,107 @@
+.author-management {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.add-author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.author-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.add-author-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6e8ca6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-author-button:hover {
+    background-color: #1c3f5e;
+}
+
+.author-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.author-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.author-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.author-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.author-buttons button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #d7c39f;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    color:white
+}
+
+.author-buttons button:hover {
+    background-color: #b25d5d;
+}
+
+.search-input {
+    width: 200px; /* Adjust this value to make the search bar shorter */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.update-author{
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-author button{
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #e3a390;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    color: white;
+    margin-right: 5px;
+
+}
+
+.update-author button:hover{
+    background-color: #d77149;
+
+}
